@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TypeScript Learning Hub
 
-## Getting Started
+Proyek pembelajaran interaktif untuk mempelajari TypeScript dan implementasinya dalam Next.js.
 
-First, run the development server:
+## Tentang Proyek
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+TypeScript Learning Hub adalah platform pembelajaran interaktif yang dirancang untuk membantu pengembang memahami TypeScript dan cara mengimplementasikannya dalam proyek Next.js. Proyek ini menyediakan contoh kode praktis, penjelasan konsep, dan implementasi nyata yang dapat dijalankan langsung di browser.
+
+## Fitur
+
+- **Modul Pembelajaran TypeScript**: Pelajari konsep-konsep dasar TypeScript seperti Generics, Interfaces, Arrow Functions, Type Assertions, Classes, Utility Types, dan Async/Await.
+- **Implementasi Next.js**: Pelajari cara mengimplementasikan TypeScript dalam proyek Next.js, termasuk API Routes, Typed Components, Custom Hooks, State Management, Form Handling, dan Best Practices.
+- **Contoh Interaktif**: Setiap modul dilengkapi dengan contoh kode yang dapat dijalankan langsung di browser.
+- **UI Modern**: Antarmuka pengguna yang modern dan responsif dengan dukungan mode gelap.
+
+## Struktur Proyek
+
+```
+src/
+├── app/
+│   ├── api/                      # API Routes
+│   │   ├── posts/                # API untuk posts
+│   │   └── users/                # API untuk users
+│   ├── arrow-functions/          # Modul Arrow Functions
+│   ├── async-await/              # Modul Async/Await & Promises
+│   ├── classes-inheritance/      # Modul Classes & Inheritance
+│   ├── generics-and-interfaces/  # Modul Generics & Interfaces
+│   ├── nextjs-implementation/    # Implementasi Next.js
+│   │   └── api-routes/           # Modul TypeScript dengan API Routes
+│   ├── type-assertions-guards/   # Modul Type Assertions & Guards
+│   ├── typescript-modules/       # Halaman indeks modul TypeScript
+│   ├── utility-types/            # Modul Utility Types
+│   ├── page.tsx                  # Halaman beranda
+│   └── layout.tsx                # Layout aplikasi
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cara Menjalankan Proyek
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone repositori:
+   ```bash
+   git clone https://github.com/username/typescript-learning-hub.git
+   cd typescript-learning-hub
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependensi:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Jalankan server pengembangan:
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Teknologi yang Digunakan
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js**: Framework React untuk aplikasi web
+- **TypeScript**: Bahasa pemrograman yang digunakan
+- **Tailwind CSS**: Framework CSS untuk styling
+- **React Icons**: Untuk ikon-ikon UI
 
-## Deploy on Vercel
+## Kontribusi
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Kontribusi selalu diterima! Jika Anda ingin menambahkan modul baru, memperbaiki bug, atau meningkatkan dokumentasi, silakan buat pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Lisensi
+
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).

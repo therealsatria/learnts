@@ -20,6 +20,9 @@ export default function Home() {
             <div className="flex items-center mb-6">
               <FiBook className="text-blue-500 text-2xl mr-3" />
               <h2 className="text-2xl font-bold">Modul Pembelajaran</h2>
+              <Link href="/typescript-modules" className="ml-auto text-sm text-blue-500 hover:text-blue-700 flex items-center">
+                Lihat Semua <FiArrowRight className="ml-1" />
+              </Link>
             </div>
             <div className="grid grid-cols-1 gap-4">
               <ModuleCard 
@@ -59,11 +62,14 @@ export default function Home() {
             <div className="flex items-center mb-6">
               <FiCode className="text-teal-500 text-2xl mr-3" />
               <h2 className="text-2xl font-bold">Implementasi Next.js</h2>
+              <Link href="/nextjs-implementation" className="ml-auto text-sm text-blue-500 hover:text-blue-700 flex items-center">
+                Lihat Semua <FiArrowRight className="ml-1" />
+              </Link>
             </div>
             <div className="grid grid-cols-1 gap-4">
               <ModuleCard 
                 title="TypeScript dengan API Routes" 
-                href="/nextjs-api-routes"
+                href="/nextjs-implementation/api-routes"
                 description="Membuat API endpoints dengan tipe yang aman di Next.js."
               />
               <ModuleCard 
