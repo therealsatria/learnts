@@ -78,3 +78,5 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 - [Typed Components & Props](/src/app/nextjs-implementation/typed-components/page.tsx)
 - [Custom Hooks dengan TypeScript](/src/app/nextjs-implementation/custom-hooks/page.tsx)
 - [State Management dengan TypeScript](/src/app/nextjs-implementation/state-management/page.tsx)
+- [Form Handling & Validation](/src/app/nextjs-implementation/form-handling/page.tsx)
+- [Project Structure & Best Practices](/src/app/nextjs-implementation/project-structure/page.tsx)

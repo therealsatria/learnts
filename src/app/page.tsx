@@ -94,12 +94,12 @@ export default function Home() {
               />
               <ModuleCard 
                 title="Form Handling & Validation" 
-                href="/form-handling"
+                href="/nextjs-implementation/form-handling"
                 description="Validasi form dengan tipe yang aman menggunakan Zod dan React Hook Form."
               />
               <ModuleCard 
                 title="Project Structure & Best Practices" 
-                href="/project-structure"
+                href="/nextjs-implementation/project-structure"
                 description="Mengorganisir proyek Next.js + TypeScript dengan praktik terbaik."
               />
             </div>
