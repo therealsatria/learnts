@@ -280,7 +280,7 @@ function BestPractice({ title, description, code }: { title: string; description
 
 export default function ProjectStructurePage() {
   return (
-    <div className="p-8">
+    <div className="max-w-6xl mx-auto px-4 py-12">
       <h1 className="text-2xl font-bold mb-6">Project Structure & Best Practices</h1>
       
       {/* Penjelasan */}
@@ -301,7 +301,7 @@ export default function ProjectStructurePage() {
           Struktur ini mengikuti prinsip separation of concerns dan modularitas.
         </p>
         
-        <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4 mb-6">
+        <div className="p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm mb-6">
           <FolderStructure data={projectStructure} />
         </div>
         

@@ -140,11 +140,11 @@ export default function CustomHooksPage() {
   const { isDark, toggleDarkMode } = useDarkMode();
 
   return (
-    <div className="p-8">
+    <div className="max-w-6xl mx-auto px-4 py-12">
       <h1 className="text-2xl font-bold mb-6">Custom Hooks dengan TypeScript</h1>
       
       {/* Form Hook Demo */}
-      <section className="mb-8 p-6 border rounded-lg bg-white dark:bg-gray-800">
+      <section className="mb-8 p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
         <h2 className="text-xl font-semibold mb-4">useForm Hook</h2>
         <div className="space-y-4">
           <div>
@@ -180,7 +180,7 @@ export default function CustomHooksPage() {
       </section>
 
       {/* Countdown Hook Demo */}
-      <section className="mb-8 p-6 border rounded-lg bg-white dark:bg-gray-800">
+      <section className="mb-8 p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
         <h2 className="text-xl font-semibold mb-4">useCountdown Hook</h2>
         <div className="space-y-4">
           <div className="text-4xl font-bold text-center">{seconds}</div>
@@ -202,7 +202,7 @@ export default function CustomHooksPage() {
       </section>
 
       {/* Dark Mode Hook Demo */}
-      <section className="mb-8 p-6 border rounded-lg bg-white dark:bg-gray-800">
+      <section className="mb-8 p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
         <h2 className="text-xl font-semibold mb-4">useDarkMode Hook</h2>
         <div className="flex items-center justify-between">
           <span>Current Mode: {isDark ? 'Dark' : 'Light'}</span>
@@ -216,7 +216,7 @@ export default function CustomHooksPage() {
       </section>
 
       {/* Dokumentasi */}
-      <section className="mt-8 p-6 border rounded-lg bg-white dark:bg-gray-800">
+      <section className="mt-8 p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
         <h2 className="text-xl font-semibold mb-4">Dokumentasi</h2>
         <div className="space-y-6">
           <div>

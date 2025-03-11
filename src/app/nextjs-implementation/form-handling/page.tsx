@@ -645,7 +645,7 @@ function MultiStepForm() {
 
 export default function FormHandlingPage() {
   return (
-    <div className="p-8">
+    <div className="max-w-6xl mx-auto px-4 py-12">
       <h1 className="text-2xl font-bold mb-6">Form Handling & Validation dengan TypeScript</h1>
       
       {/* Penjelasan */}
@@ -666,7 +666,7 @@ export default function FormHandlingPage() {
           Dengan TypeScript, kita dapat mendefinisikan tipe data untuk input form.
         </p>
         
-        <div className="bg-gray-100 p-4 rounded mb-4">
+        <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-xl mb-4">
           <pre className="text-sm overflow-x-auto">
             <code>{`
 // Mendefinisikan tipe untuk form login
@@ -686,7 +686,9 @@ const {
           </pre>
         </div>
         
-        <SimpleLoginForm />
+        <div className="p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
+          <SimpleLoginForm />
+        </div>
       </section>
       
       {/* Form dengan Zod */}
@@ -697,7 +699,7 @@ const {
           schema validasi yang kompleks dan mengintegrasikannya dengan React Hook Form.
         </p>
         
-        <div className="bg-gray-100 p-4 rounded mb-4">
+        <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-xl mb-4">
           <pre className="text-sm overflow-x-auto">
             <code>{`
 // Mendefinisikan schema validasi dengan Zod
@@ -728,7 +730,9 @@ const {
           </pre>
         </div>
         
-        <ZodValidationForm />
+        <div className="p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
+          <ZodValidationForm />
+        </div>
       </section>
       
       {/* Form Multi-Step */}
@@ -739,7 +743,7 @@ const {
           Dengan TypeScript, kita dapat mendefinisikan tipe data untuk setiap langkah dan menggabungkannya.
         </p>
         
-        <div className="bg-gray-100 p-4 rounded mb-4">
+        <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-xl mb-4">
           <pre className="text-sm overflow-x-auto">
             <code>{`
 // Mendefinisikan schema validasi untuk setiap step
@@ -765,7 +769,9 @@ type MultiStepFormData = z.infer<typeof multiStepFormSchema>;
           </pre>
         </div>
         
-        <MultiStepForm />
+        <div className="p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
+          <MultiStepForm />
+        </div>
       </section>
       
       {/* Kesimpulan */}

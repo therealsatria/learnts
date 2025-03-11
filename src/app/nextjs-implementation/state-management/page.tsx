@@ -253,7 +253,7 @@ function TodoDemo() {
 
 export default function StateManagementPage() {
   return (
-    <div className="p-8">
+    <div className="max-w-6xl mx-auto px-4 py-12">
       <h1 className="text-2xl font-bold mb-6">State Management dengan TypeScript</h1>
       
       {/* Context API Section */}
@@ -264,7 +264,7 @@ export default function StateManagementPage() {
           Dengan TypeScript, kita dapat mendefinisikan tipe data yang jelas untuk context.
         </p>
         
-        <div className="bg-gray-100 p-4 rounded mb-4">
+        <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-xl mb-4">
           <pre className="text-sm overflow-x-auto">
             <code>{`
 // Mendefinisikan tipe untuk ThemeContext
@@ -289,9 +289,11 @@ function useTheme() {
           </pre>
         </div>
         
-        <ThemeProvider>
-          <ThemeDemo />
-        </ThemeProvider>
+        <div className="p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
+          <ThemeProvider>
+            <ThemeDemo />
+          </ThemeProvider>
+        </div>
       </section>
       
       {/* Redux Pattern Section */}
@@ -302,7 +304,7 @@ function useTheme() {
           hook dari React yang mengimplementasikan pola Redux dengan TypeScript.
         </p>
         
-        <div className="bg-gray-100 p-4 rounded mb-4">
+        <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-xl mb-4">
           <pre className="text-sm overflow-x-auto">
             <code>{`
 // Mendefinisikan tipe untuk state dan action
@@ -330,7 +332,9 @@ function counterReducer(state: CounterState, action: CounterAction): CounterStat
           </pre>
         </div>
         
-        <CounterDemo />
+        <div className="p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
+          <CounterDemo />
+        </div>
       </section>
       
       {/* Zustand Pattern Section */}
@@ -341,7 +345,7 @@ function counterReducer(state: CounterState, action: CounterAction): CounterStat
           Di sini kita mengimplementasikan pola yang mirip dengan Zustand menggunakan hooks.
         </p>
         
-        <div className="bg-gray-100 p-4 rounded mb-4">
+        <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-xl mb-4">
           <pre className="text-sm overflow-x-auto">
             <code>{`
 // Mendefinisikan tipe untuk store
@@ -374,13 +378,15 @@ function useTodoStore() {
           </pre>
         </div>
         
-        <TodoDemo />
+        <div className="p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm">
+          <TodoDemo />
+        </div>
       </section>
       
       {/* Perbandingan */}
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-4">Perbandingan State Management</h2>
-        <div className="overflow-x-auto">
+        <div className="p-6 border border-gray-100 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-800 shadow-sm overflow-x-auto">
           <table className="min-w-full border">
             <thead>
               <tr className="bg-gray-100">
