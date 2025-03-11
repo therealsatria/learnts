@@ -70,3 +70,11 @@ Kontribusi selalu diterima! Jika Anda ingin menambahkan modul baru, memperbaiki 
 ## Lisensi
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
+## Implementasi Next.js dengan TypeScript
+
+- [TypeScript dengan API Routes](/src/app/nextjs-implementation/api-routes/page.tsx)
+- [CRUD dengan Fake API](/src/app/nextjs-implementation/crud-fake-api/page.tsx)
+- [Typed Components & Props](/src/app/nextjs-implementation/typed-components/page.tsx)
+- [Custom Hooks dengan TypeScript](/src/app/nextjs-implementation/custom-hooks/page.tsx)
+- [State Management dengan TypeScript](/src/app/nextjs-implementation/state-management/page.tsx)

@@ -87,10 +87,10 @@ export default function Home() {
                 href="/nextjs-implementation/custom-hooks"
                 description="Membuat dan menggunakan custom hooks dengan TypeScript."
               />
-              <ModuleCard 
-                title="State Management" 
-                href="/state-management"
-                description="Mengelola state aplikasi dengan TypeScript (Context, Redux, Zustand)."
+              <ModuleCard
+                title="State Management dengan TypeScript"
+                href="/nextjs-implementation/state-management"
+                description="Implementasi berbagai teknik state management dengan TypeScript (Context, Redux, Zustand)."
               />
               <ModuleCard 
                 title="Form Handling & Validation" 
