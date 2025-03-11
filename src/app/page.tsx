@@ -19,7 +19,7 @@ export default function Home() {
           <section className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-8 border border-gray-100 dark:border-gray-700">
             <div className="flex items-center mb-6">
               <FiBook className="text-blue-500 text-2xl mr-3" />
-              <h2 className="text-2xl font-bold">Modul Pembelajaran</h2>
+              <h2 className="text-2xl font-bold">Modul Belajar Typescript</h2>
               <Link href="/typescript-modules" className="ml-auto text-sm text-blue-500 hover:text-blue-700 flex items-center">
                 Lihat Semua <FiArrowRight className="ml-1" />
               </Link>
@@ -27,32 +27,32 @@ export default function Home() {
             <div className="grid grid-cols-1 gap-4">
               <ModuleCard 
                 title="Generics & Interfaces" 
-                href="/generics-and-interfaces"
+                href="typescript-modules/generics-and-interfaces"
                 description="Pelajari cara membuat kode yang fleksibel dan dapat digunakan kembali dengan generics dan interfaces."
               />
               <ModuleCard 
                 title="Arrow Functions" 
-                href="/arrow-functions"
+                href="typescript-modules/arrow-functions"
                 description="Memahami sintaks fungsi panah dan kapan menggunakannya dalam TypeScript."
               />
               <ModuleCard 
                 title="Type Assertions & Type Guards" 
-                href="/type-assertions-guards"
+                href="typescript-modules/type-assertions-guards"
                 description="Teknik untuk bekerja dengan tipe data yang lebih aman dan ekspresif."
               />
               <ModuleCard 
                 title="Classes & Inheritance" 
-                href="/classes-inheritance"
+                href="typescript-modules/classes-inheritance"
                 description="OOP dalam TypeScript dengan class, inheritance, dan modifiers."
               />
               <ModuleCard 
                 title="Utility Types" 
-                href="/utility-types"
+                href="typescript-modules/utility-types"
                 description="Menggunakan Partial, Readonly, Pick, Omit, dan utility types lainnya."
               />
               <ModuleCard 
                 title="Async/Await & Promises" 
-                href="/async-await"
+                href="typescript-modules/async-await"
                 description="Menangani operasi asinkron dengan tipe yang aman."
               />
             </div>
