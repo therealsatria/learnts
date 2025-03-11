@@ -79,12 +79,12 @@ export default function Home() {
               />
               <ModuleCard 
                 title="Typed Components & Props" 
-                href="/typed-components"
+                href="/nextjs-implementation/typed-components"
                 description="Membuat komponen React dengan props yang diketik dengan baik."
               />
               <ModuleCard 
                 title="Custom Hooks dengan TypeScript" 
-                href="/custom-hooks"
+                href="/nextjs-implementation/custom-hooks"
                 description="Membuat dan menggunakan custom hooks dengan TypeScript."
               />
               <ModuleCard 
