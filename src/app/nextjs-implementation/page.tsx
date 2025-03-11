@@ -11,6 +11,11 @@ export default function NextJsImplementationPage() {
       description: "Membuat API endpoints dengan tipe yang aman di Next.js."
     },
     {
+      title: "CRUD dengan Fake API",
+      href: "/nextjs-implementation/crud-fake-api",
+      description: "Implementasi operasi CRUD dengan TypeScript menggunakan DummyJSON API."
+    },
+    {
       title: "Typed Components & Props",
       href: "/nextjs-implementation/typed-components",
       description: "Membuat komponen React dengan props yang diketik dengan baik."

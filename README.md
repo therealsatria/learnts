@@ -9,7 +9,7 @@ TypeScript Learning Hub adalah platform pembelajaran interaktif yang dirancang u
 ## Fitur
 
 - **Modul Pembelajaran TypeScript**: Pelajari konsep-konsep dasar TypeScript seperti Generics, Interfaces, Arrow Functions, Type Assertions, Classes, Utility Types, dan Async/Await.
-- **Implementasi Next.js**: Pelajari cara mengimplementasikan TypeScript dalam proyek Next.js, termasuk API Routes, Typed Components, Custom Hooks, State Management, Form Handling, dan Best Practices.
+- **Implementasi Next.js**: Pelajari cara mengimplementasikan TypeScript dalam proyek Next.js, termasuk API Routes, CRUD dengan Fake API, Typed Components, Custom Hooks, State Management, Form Handling, dan Best Practices.
 - **Contoh Interaktif**: Setiap modul dilengkapi dengan contoh kode yang dapat dijalankan langsung di browser.
 - **UI Modern**: Antarmuka pengguna yang modern dan responsif dengan dukungan mode gelap.
 
@@ -26,7 +26,8 @@ src/
 │   ├── classes-inheritance/      # Modul Classes & Inheritance
 │   ├── generics-and-interfaces/  # Modul Generics & Interfaces
 │   ├── nextjs-implementation/    # Implementasi Next.js
-│   │   └── api-routes/           # Modul TypeScript dengan API Routes
+│   │   ├── api-routes/           # Modul TypeScript dengan API Routes
+│   │   └── crud-fake-api/        # Modul CRUD dengan Fake API (DummyJSON)
 │   ├── type-assertions-guards/   # Modul Type Assertions & Guards
 │   ├── typescript-modules/       # Halaman indeks modul TypeScript
 │   ├── utility-types/            # Modul Utility Types
@@ -60,6 +61,7 @@ src/
 - **TypeScript**: Bahasa pemrograman yang digunakan
 - **Tailwind CSS**: Framework CSS untuk styling
 - **React Icons**: Untuk ikon-ikon UI
+- **DummyJSON API**: Fake API untuk contoh operasi CRUD
 
 ## Kontribusi
 

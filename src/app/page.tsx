@@ -73,6 +73,11 @@ export default function Home() {
                 description="Membuat API endpoints dengan tipe yang aman di Next.js."
               />
               <ModuleCard 
+                title="CRUD dengan Fake API" 
+                href="/nextjs-implementation/crud-fake-api"
+                description="Implementasi operasi CRUD dengan TypeScript menggunakan DummyJSON API."
+              />
+              <ModuleCard 
                 title="Typed Components & Props" 
                 href="/typed-components"
                 description="Membuat komponen React dengan props yang diketik dengan baik."
